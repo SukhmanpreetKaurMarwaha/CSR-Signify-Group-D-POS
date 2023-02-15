@@ -9,18 +9,18 @@ package com.signify.service;
  */
 public class StudentService {
 	
-	public void changePassword()
+	public void changePassword(String passwordNew)
 	{
 		System.out.println("Password Changed");
 	}
 	
-	public void register()
+	public void register(int studentId, String branch, int batch)
 	{
 		System.out.println("Student registered");
 	}
-	public void viewGradeCard()
+	public String viewGradeCard(int studentId )
 	{
-		System.out.println("Grade Card Viewed");
+		return "Card viewed";
 	}
 
 }
